@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 12px;
 }
 
 img {
@@ -14,10 +15,19 @@ video {
     height: auto;
 }
 
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding: 20px;
+    max-width: 800px;
 }
 
 .title {
@@ -25,7 +35,7 @@ video {
     text-align: center;
     font-size: 50px;
     margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 16px;
+    padding: 16px;
     border-bottom: 1px solid grey;
+    box-sizing: border-box;
 }
